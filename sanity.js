@@ -1,5 +1,6 @@
 import SanityClient from '@sanity/client';
 import imageUrlBuilder from '@sanity/image-url';
+import 'react-native-url-polyfill/auto';
 
 const client = SanityClient({
     projectId: "ev2mx67u",
